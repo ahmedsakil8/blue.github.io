@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(184, 181, 181);
+}
+.fekor{
+    position: absolute;
+    top: 165px;
+    left: 350px;
+    height: 45px;
+    width: 1000px;
+    border-top-left-radius: 33px;
+    background-color: rgb(184, 181, 181);
+    z-index: 20;
+}
+.fekor .blue{
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 30px;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(7, 7, 59);
+}
+.fekor .blue h2{
+    padding-left: 50px;
+    padding-top: 5px;
+    height: 20px;
+    color: white;
+    font-family: 'calibri';
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: normal;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 200px;
+}
+.heading{
+    line-height: 22px;
+    padding-left: 12%;
+    background-color: white;
+    height: 50px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+.heading h2{
+    color: rgb(102, 25, 25);
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading h2 span{
+    color: rgb(7, 7, 59);
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 1px rgb(48, 37, 37);
+    letter-spacing: 1px;
+}
+header .menu{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(59, 131, 214);
+    position: relative;
+}
+header .menu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .menu ul li{
+    padding: 8px 25px;
+    list-style: none;
+    border-left: 1px solid white;
+    height: 6vh;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 1px rgb(32, 31, 31);
+}
+header .menu ul  #yel{
+    background-color: rgb(22, 156, 127);
+}
+header .search{
+    display: flex;
+    position: relative;
+}
+header .lip{
+    width: 70%;
+    height: 15px;
+    position: relative;
+    background-color: rgb(9, 9, 49);
+}
+header .box{
+    width: 30%;
+    height: 35px;
+    position: relative;
+    background-color: rgb(9, 9, 49);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+header .box #vio{
+    height: 25px;
+    width: 48%;
+    margin-right: 3px;
+    border-color: white;
+    border-bottom-left-radius: 10px;
+}
+header .box button{
+    height: 30px;
+    width: 45%;
+    background: rgb(59, 131, 214);
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    border-bottom-right-radius: 10px;
+}
+header .pic{
+    position: relative;
+    top: -20px;
+}
+header .pic img{
+    width: 100%;
+    height: 105px;
+    object-fit: cover;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    z-index: 2;
+}
+.logo img{
+    height: 100px;
+}
+/* main */
+main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+main .side{
+    height: 2000px;
+    width: 330px;
+    position: relative;
+    background-color: white;
+    margin-top: 8px;
+    border-radius: 10px 10px 30px 3px;
+    box-shadow: 2px 2px 2px black;
+}
+main .contain{
+    height: 1900px;
+    width: 1000px;
+    position: relative;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 12px 12px 0 0;
+}
+main .contain .info{
+    height: 350px;
+    width: 965px;
+    margin: 20px;
+    border: 5px solid skyblue;
+    display: flex;
+    background-image: url(1234.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+main .contain .info .col{
+    margin-left: 550px;
+    width: 400px;
+    justify-content: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    pointer-events: none;
+}
+.contain .info .col .yellow{
+    color: rgb(80, 12, 38);
+}
+main .side .first{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+}
+main .side .first .future{
+    margin-left: 20px;
+    overflow: hidden;
+}
+main .side .first .loogo{
+    margin-left: 10px;
+}
+main .side .first .future h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(3, 3, 22);
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+main .side .first .future p{
+    color: rgb(36, 128, 120);
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+}
+main .side .list{
+    margin-top: 10px;
+    
+}
+main .side .list ul{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+main .side .list ul li{
+    line-height: 40px;
+}
+main .side .list ul li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: rgb(39, 59, 170);
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px dotted rgb(20, 19, 19);
+}
+main .side .list ul li .blue{
+    background-color: rgb(147, 180, 240);
+    color: rgb(2, 2, 26);
+    border-top: 1px solid rgb(20, 19, 19);
+}
+main .contain .biz{
+    display: flex;
+    position: relative;
+}
+main .contain .biz .station{
+    margin: 25px;
+    width: 1000px;
+}
+main .contain .biz .station h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    color: rgb(17, 17, 73);
+    border-bottom: 5px solid rgb(88, 137, 226);
+}
+main .contain .biz .station img{
+    width: 750px;
+    height: 400px;
+}
+main .contain .biz .media{
+    width: 300px;
+}
+main .contain .biz .media h2{
+    margin-top: 25px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    color: rgb(17, 17, 73);
+    border-bottom: 5px solid rgb(88, 137, 226);
+}
+main .contain .biz .media img{
+    width: 170px;
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px black;
+    border-bottom-right-radius: 10px;
+}
+main .contain .diz{
+    display: flex;
+    position: relative;
+}
+main .contain .diz .program{
+    margin: 25px;
+    width: 1000px;
+}
+main .contain .diz .program h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    color: rgb(17, 17, 73);
+    border-bottom: 5px solid rgb(88, 137, 226);
+}
+main .contain .diz .features{
+    width: 300px;
+}
+main .contain .diz .features h2{
+    margin-top: 25px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+    color: rgb(17, 17, 73);
+    border-bottom: 5px solid rgb(88, 137, 226);
+}
